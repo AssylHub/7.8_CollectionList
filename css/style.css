@@ -1,0 +1,139 @@
+@import url(reset.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d8d9e2;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.wrapper {
+    position: relative;
+    /* max-width: 1200px;
+    margin: 0 auto; */
+    padding: 50px;
+    border-radius: 20px;
+    background-color: #eef0f2;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 50px 30px #c3c8d4;
+
+}
+
+.collections {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.collections__title {
+    font-family: "Ubuntu" serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+.collections__desc {
+}
+.collections__menu {
+    display: flex;
+    gap: 10px;
+
+}
+.menu {
+}
+.collections__link {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 500;
+}
+.collections__box {
+    margin-top: 20px;
+}
+.box {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.box__block {
+    
+}
+.block {
+    /* vertical-align: top; */
+
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.block__img-main {
+    width: 200px;
+    height: 130px;
+    border-radius: 10px;
+
+}
+.block__images-below {
+    display: flex;
+    justify-content: space-between;
+}
+.block__img-below {
+    width: 62px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.block__img-below img {
+
+}
+
+.block__footer {
+    /* margin: 0; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.block__title {
+    font-weight: 600;
+}
+.block__quantity {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    
+}
+
+.block__quantity img {
+    width: 15px;
+}
+
+.block__quantity p {
+    font-weight: 600;
+    font-size: 10px;
+}
+
+.circle {
+    background-color: #e5e8f0;
+    z-index: -1 ;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.circle-1 {
+    position: absolute;
+    top: -100px;
+    right: 150px;   
+}
+
+.circle-2 {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    bottom: -150px;
+    left: 150px;
+}
